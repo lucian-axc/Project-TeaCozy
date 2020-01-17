@@ -1,0 +1,154 @@
+* {
+  /* border: 1px solid darkred; */
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ***Header area */
+header {
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  margin-top: 0px;
+  background-color: black;
+
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  margin-left: 10px;
+  height: 50px;
+}
+
+header nav {
+
+  margin-left: auto;
+  margin-right: 3%;
+
+  display: inline-flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+nav h3 {
+  text-decoration: underline;
+  margin: 0 10px;
+
+}
+
+
+/* *** Our Mission Div Area */
+.mission {
+  margin-top: 69px;
+  width: 1200px;
+  height: 700px;
+
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+
+  background-image: url("./Images/img-mission-background.jpg");
+}
+
+.mission-text {
+  background-color: black;
+}
+
+.mission-text h2, h4 {
+  margin: 17px 0px;
+}
+
+/* *** Tea of the Month DIV AREA */
+.tea {
+  width: 1000px;
+  margin-bottom: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tea .tea-text {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.tea .tea-images {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.tea-images img {
+  width: 300px;
+  height: 200px;
+  margin: 0px 12px;
+}
+
+.tea-images p {
+  margin: 10px 0px 20px 0px;
+  font-weight: bold;
+}
+
+
+/* *** Locations DIV AREA */
+.locations {
+  width: 1200px;
+  height: 500px;
+
+  background-image: url("./Images/img-locations-background.jpg");
+}
+
+.locations h2 {
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.locations-addresses {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.downtown, .east-bayside, .oakdale {
+  width: 300px;
+  height: 300px;
+  margin: 0px 20px;
+
+  background-color: black;
+  opacity: 1;
+  line-height: 250%;
+}
+
+.locations-addresses h4 {
+  font-weight: normal;
+}
+
+
+/* *** Footer DIV AREA */
+footer {
+  min-width: 100%;
+}
+
+.footer-contact {
+  height: 200px;
+}
+
+footer #copy {
+  float: left;
+  margin-left: 20px;
+}
